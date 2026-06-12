@@ -1,3 +1,5 @@
+
+COMBINATIONAL CIRCUITS VERILOG CODE
 1. 1-bit Full Adder using Dataflow Modeling
 
 full_adder.v
@@ -357,7 +359,7 @@ end
 endmodule
 
 
-
+SEQUENTIAL CIRCUITS VERILOG CODE
 
 1. SR Latch using Gate Level Modelling
 RTL
