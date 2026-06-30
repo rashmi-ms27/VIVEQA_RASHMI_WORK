@@ -1,0 +1,10 @@
+Problem Title:
+FPGA-Based Digital Password Authentication System with Security Lockout Mechanism
+
+Project Description:
+This project implements a digital password authentication system using an Artix-7 FPGA as the main controller. Users authenticate themselves by entering a 4-digit password through a hexadecimal keypad. The entered password is verified with the stored encrypted password using XOR-based encryption. A Finite State Machine (FSM) controls the authentication process by managing the PASS, FAIL, and LOCK states. Upon successful authentication, the system displays PASS on the MAX7219 seven-segment display and indicates success through LEDs. If an incorrect password is entered, the system displays FAIL, and after three consecutive failed attempts, it enters the LOCK state to prevent unauthorized access. The project demonstrates the implementation of secure digital authentication using Verilog HDL, FPGA design, finite state machines, password encryption, and hardware-based access control.
+
+Team Members:
+
+Rashmi M S
+Avaneesh H Kamath
